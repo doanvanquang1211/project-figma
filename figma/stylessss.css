@@ -10,13 +10,18 @@ ul {
 body {
     width: 100vw;
     height: 100vh;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 .container {
-    width: 100%;
+    width: 1500px;
     height: 930px;
-    background: url(../background.png) no-repeat;
+    background: url(./imagess/background.png) no-repeat;
     background-size: 100% 930px;
+    
 }
 
 .container .header {
@@ -119,10 +124,11 @@ body {
 /* phan2 */
 
 .figma {
-    width: 100%;
+    width: 1400px;
     height: 1362px;
     background-color: #FFFFFF;
     margin-top: 125px;
+    
 }
 
 .figma .content1 {
@@ -195,7 +201,7 @@ body {
 /* phan3 */
 
 .container2 {
-    width: 100%;
+    width: 1400px;
     height: 924px;
     display: flex;
     flex-direction: row;
@@ -236,7 +242,7 @@ body {
 /* phan4 */
 
 .container3 {
-    width: 100%;
+    width: 1300px;
     height: 725px;
     display: flex;
     align-items: center;
@@ -305,7 +311,7 @@ body {
 /* phan5 */
 
 .container4 {
-    width: 100%;
+    width: 1200px;
     height: 932px;
     display: flex;
     flex-direction: column;
@@ -324,7 +330,6 @@ body {
     font-size: 48px;
     line-height: 55px;
     color: #252B42;
-    
 }
 
 .container4 .figma4 .text-figma4 {
@@ -450,7 +455,7 @@ body {
 /* phan6 */
 
 .figma6 {
-    width: 100%;
+    width: 1200px;
     height: 811px;
     text-align: center;
 }
@@ -517,7 +522,7 @@ body {
 /* phan7 */
 
 .figma7 {
-    width: 100%;
+    width: 1200px;
     height: 1155px;
     background-color: #252B42;
 }
@@ -679,7 +684,7 @@ body {
 /* phan8 */
 
 .figma8 {
-    width: 100%;
+    width: 1200px;
     height: 1206px;
 }
 
@@ -812,7 +817,7 @@ body {
 /* footer */
 
 .footer-figma {
-    width: 100%;
+    width: 1200px;
     height: 567px;
     background: #252B42;
     display: flex;
